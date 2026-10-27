@@ -1,0 +1,13 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# Supabase local state
+supabase/.branches
+supabase/.temp
